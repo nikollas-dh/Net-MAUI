@@ -5,8 +5,11 @@
              Title="AboutPage">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="App de introdução ao NET MAUI!"
+            FontSize="25"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center" 
+            TextColor="Black"
+            FontAttributes="Bold"/>
     </VerticalStackLayout>
 </ContentPage>

@@ -9,5 +9,6 @@
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
         <Button WidthRequest="300" x:Name="btnNav" Text="Navegar" Clicked="btnNav_Clicked"/>
+        <Button WidthRequest="300" x:Name="btnRanking" Text="Ranking" Clicked="btnRanking_Clicked"/>
     </VerticalStackLayout>
 </ContentPage>

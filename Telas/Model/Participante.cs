@@ -15,9 +15,5 @@ public partial class Participante
 
     public string? Genero { get; set; }
 
-    public virtual Cidade? Cidade { get; set; }
-
-    public virtual ICollection<ParticipantesEvento> ParticipantesEventos { get; set; } = new List<ParticipantesEvento>();
-
-    public virtual ICollection<Venda> Venda { get; set; } = new List<Venda>();
+    
 }
